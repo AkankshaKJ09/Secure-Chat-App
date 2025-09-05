@@ -1,0 +1,86 @@
+body, html {
+    height: 100%;
+    background-color: #f8f9fa;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    border: none;
+}
+
+#chat-section {
+    height: 100vh;
+}
+
+#messages-container {
+    height: calc(100vh - 200px);
+    background-color: #f0f2f5;
+}
+
+.message {
+    max-width: 70%;
+    margin-bottom: 15px;
+}
+
+.message.sent {
+    margin-left: auto;
+}
+
+.message.received {
+    margin-right: auto;
+}
+
+.message-content {
+    padding: 10px 15px;
+    border-radius: 18px;
+}
+
+.sent .message-content {
+    background-color: #007bff;
+    color: white;
+}
+
+.received .message-content {
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+}
+
+.message-time {
+    font-size: 0.7rem;
+    color: #6c757d;
+    margin-top: 5px;
+}
+
+.user-status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.user-online {
+    background-color: #28a745;
+}
+
+.user-offline {
+    background-color: #6c757d;
+}
+
+.list-group-item {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef;
+}
+
+.list-group-item.active {
+    background-color: #007bff;
+    border-color: #007bff;
+}
